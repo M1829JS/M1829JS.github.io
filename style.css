@@ -1,0 +1,95 @@
+.col {
+    border: 0.5px solid black;
+}
+.gray {
+    color: gray;
+    font-family: monospace;
+}
+
+@keyframes hover-over-link {
+    from{color: gray;}
+    to{color: black;}
+    from{font-size: 20px;}
+    to{font-size: 21px;}
+    
+}
+.gray:hover {
+    animation-name: hover-over-link;
+    animation-duration: 0.5s;
+    color: black;
+    font-size: 21px;
+    font-family: monospace;
+}
+
+body {
+    font-family: monospace;
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: white;
+}
+
+.image-back {
+    background-color: burlywood;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+.center {
+    margin: auto;
+}
+
+#white {
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-body {
+    text-align: center;
+}
+
+@keyframes p {
+    from{color: white;}
+    to{color: black;}
+    from{font-size: 20px;}
+    to{font-size: 21px;}
+}
+
+#white:hover {
+    animation-name: p;
+    animation-duration: 0.5s;
+    color: black;
+    font-size: 21px;
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+#center {
+    padding: 300px;
+}
+
+#padd {
+    padding-left: 10px;
+}
+
+h4 {
+    font-family: monospace;
+}
+
+h5 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#comments {
+    width: 60%;
+    height: 300px;
+}

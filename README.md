@@ -20,15 +20,15 @@
 </div>
 
 > Fill out project information in English ⬇️
-### Student Name
+### Muhammad Al-Sarraf
 
 
-### Project Name
+### Web Creators
 
-# Idea
+# A website that lets you create your own websites with free domains and 70$ per site
 Problem and solutions if found 
 
 
-# Future Work 
+# Actual bussiness with this project
 
 
