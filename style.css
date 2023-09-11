@@ -31,6 +31,7 @@ body {
 .image-back {
     background-color: burlywood;
     text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -73,9 +74,8 @@ hr {
 }
 
 #center {
-    padding: 300px;
+    margin-top: 300px;
 }
-
 #padd {
     padding-left: 10px;
 }
@@ -89,7 +89,40 @@ h5 {
     margin-right: 20px;
 }
 
-#comments {
-    width: 60%;
-    height: 300px;
+.mar {
+    margin: auto;
+}
+
+#email {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: monospace;
+}
+
+#phone {
+    margin-left: 290px;
+    font-family: monospace;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+}
+
+.subm:hover {
+    background-color: black;
+    color: white;
+    animation-name: btn-sub;
+    animation-duration: 1s;
+}
+
+@keyframes btn-sub {
+    from{background-color: white;}
+    to{background-color: black;}
+    from{color: black;}
+    to{color: white;}
+}
+
+#nocol {
+    border: none;
 }
